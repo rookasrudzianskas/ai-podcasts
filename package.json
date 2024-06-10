@@ -29,6 +29,7 @@
     "openai": "^4.47.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.51.5",
     "svix": "^1.24.0",
     "tailwind-merge": "^2.3.0",

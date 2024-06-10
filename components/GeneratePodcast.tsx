@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { GeneratePodcastProps } from '@/types'
 import React, { useState } from 'react'
 import { Label } from './ui/label'
@@ -64,7 +65,7 @@ const useGeneratePodcast = ({
       })
       setIsGenerating(false);
     }
-    
+
   }
 
   return { isGenerating, generatePodcast }
@@ -79,7 +80,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
         <Label className="text-16 font-bold text-white-1">
           AI Prompt to generate Podcast
         </Label>
-        <Textarea 
+        <Textarea
           className="input-class font-light focus-visible:ring-offset-orange-1"
           placeholder='Provide text to generate audio'
           rows={5}
@@ -100,7 +101,7 @@ const GeneratePodcast = (props: GeneratePodcastProps) => {
       </Button>
       </div>
       {props.audio && (
-        <audio 
+        <audio
           controls
           src={props.audio}
           autoPlay

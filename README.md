@@ -1,4 +1,4 @@
-**Cloning the Repository**
+**Cloning the Repositor**
 
 ```bash
 cd podcast
